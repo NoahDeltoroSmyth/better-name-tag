@@ -9,3 +9,48 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+#####
+Notes:
+
+JS examples : 
+
+strings, 
+
+console.log(‘hello’ + ‘ world’)
+
+
+numbers,
+
+console.log(1 + 1)
+
+
+ booleans, 
+
+console.log(false)
+console.log(true)
+
+
+undefined/null, 
+
+console.log(undefined)
+console.log(null)
+
+
+variables, 
+
+Can contain : a-z, A-Z, $, 0-9, cannot start with a number
+
+
+template literals
+
+Uses back ticks and can put JS logic inside strings using $ {___}
+
+
+Arrays,
+
+Use brackets
+
+Can have stings and numbers mixed as well
+
+Arrays start by counting at zero
+
