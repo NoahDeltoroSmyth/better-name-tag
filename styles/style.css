@@ -7,6 +7,9 @@ header {
     border-radius: 20px 20px 0px 0px;
 }
 
+
+
+
 h1 {
     text-transform: uppercase;
     font-size: 4rem;
@@ -30,6 +33,7 @@ main {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
+    background-color: white;
 }
 
 footer {
@@ -38,4 +42,34 @@ footer {
     height: 35px;
     border-radius: 0px 0px 20px 20px;
 
+}
+
+button {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin: 20px;
+}
+
+input {
+    margin: 20px;
+    width: 350px;
+    background-color: tomato;
+}
+
+#namebutton {
+    background-color: tomato;
+}
+
+#colorbutton1 {
+    background-color: pink;
+}
+
+#colorbutton2 {
+    background-color: lightgreen;
+}
+
+#colorbutton3 {
+    background-color: lightblue;
 }
