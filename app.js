@@ -1,12 +1,8 @@
-console.log(1 + 1);
+const nameInput = document.getElementById('name');
+const button = document.getElementById('button');
+const firstName = document.getElementById('firstname');
 
-console.log(4 + 2);
-
-console.log(4 + Number('2'));
-
-let colors = ['red', 'white', 'blue'];
-console.log(colors[0]);
-
-colors[2] = 'purple';
-console.log(colors);
-
+button.addEventListener('click', ()=>{
+    let newName = nameInput.value;
+    firstName.textContent = newName;
+});
